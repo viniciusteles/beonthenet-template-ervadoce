@@ -157,10 +157,10 @@ ul#thumbnails a:hover label {
 
 
 /* Link to Selection */
-#select_pictures a {
+#go_to_selection a {
 	background:             url(../images/select_pictures.gif) no-repeat top left;
 }
-#select_pictures a:hover {
+#go_to_selection a:hover {
 	background:             url(../images/select_pictures_hover.gif) no-repeat top left;
 }
 /* /Link to Selection */
