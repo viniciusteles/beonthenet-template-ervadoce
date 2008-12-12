@@ -1,0 +1,400 @@
+/* Typography global attributes */
+html * {
+  list-style-type:        none;
+  font:                   normal normal normal 1em/1em Verdana, sans-serif;
+  color:				  #666;
+}
+
+p, li, dd, dt {
+	font-size:              75%;
+	line-height:            1.7em;
+}
+
+strong {
+  font-weight:            bold;
+}
+
+em {
+  font-style:             italic;
+}
+
+h1 {
+  font-variant:           small-caps;
+  font-size:              180%;
+}
+
+body.instructions h1 { font-size:	24px; }
+
+h2 {
+  font-size:              95%;
+}
+
+h3, h3 a {
+  font-size:                 	16px;
+  margin:			   			0 0 5px 0;
+  text-decoration:       		none;
+  display:						block;
+}
+
+h4, h4 a {
+  font-size:                   	12px;
+  text-decoration:       		none;
+  margin-bottom:			    10px;
+  display:						block;
+  color:                  #9e9b99;
+}
+
+h3 a:focus, h3 a:hover {
+  text-decoration:        underline;
+}
+/* /Typography global attributes */
+
+
+/* Header tabbed menu */
+#header h1 img {
+  font-size:              60%;
+  text-transform:         lowercase;
+  word-spacing:           1em;
+}
+
+#header li {
+  font-size:              85%;
+	line-height:            1em;
+}
+
+#header li a {
+  	text-decoration:        none;	
+	font-size:				18px;
+}
+
+
+/* /Header tabbed menu */
+
+
+/* Thumbnails */
+ul#thumbnails li {
+  font-size:     	         100%;
+}
+
+ul#thumbnails li div a {
+  text-align:             center;
+  text-decoration:        none;
+}
+
+ul#thumbnails a img {
+	font-size:              80%;
+}
+/* /Thumbnails */
+
+
+/* Summary */
+#summary #see_data_sheet {
+  text-transform:         uppercase;
+	line-height:            2.5em;
+}
+/* /Summary */
+
+
+/* Link to Selection */
+#select_pictures a {
+  line-height:				27px;
+}
+/* /Link to Selection */
+
+
+/* Paging */
+.pages {
+  text-align:             left;
+}
+
+.pages a {
+  line-height:            1em;
+  word-spacing:           .5em;
+}
+
+.pages a.next:hover {  
+  padding-right:		  20px;
+}
+
+.pages a.previous:hover {  
+  padding-left:		  20px;
+}
+
+.pages strong {
+  font-weight:            bold;
+  font-size:              150%;
+}
+/* /Paging */
+
+
+/* Data sheet */
+#data_sheet h2 {
+  font-size:              120%;
+}
+
+#data_sheet li {
+	font-weight:            bold;
+  line-height:            2.5em;
+}
+
+#data_sheet dl * {
+	font-size:              100%;
+	line-height:            1.4em;
+}
+
+#data_sheet dt {
+	font-weight:            bold;
+	text-indent:            2.5em;
+}
+/* /Data sheet */
+
+
+/* Big picture, big video */
+#big_picture, #big_video {
+	text-align:             center;
+}
+#big_picture a#previous, #big_picture a#next {	
+	font-size:				7px;
+}
+
+#big_picture a, #big_video a {
+  font-size:              75%;
+	text-align:             left;
+}
+
+#big_picture img {
+	font-size:              125%;
+	text-align:             center;
+	line-height:            1.5em;
+}
+
+#big_video object * {
+  text-align:             justify;
+}
+
+#big_video object h1 {
+  text-align:             left;
+}
+
+#big_video object p {
+  font-size:              90%;
+  line-height:            1.75em;
+}
+
+#big_video object a {
+  font-size:              100%;
+}
+
+#big_picture label, #big_video label {
+	font-size:              140%;
+  text-align:             center;
+  letter-spacing:         -.05em;
+}
+
+#big_video label span {
+  font-size:              55%;
+}
+/* /Big picture, big video */
+
+
+/* Tags */
+#tags p {
+  line-height:            .5em;
+}
+
+#tags a:hover {
+  text-decoration:        none;
+}
+/* /Tags */
+
+
+/* Selection */
+#thumbnails label, 
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+  line-height:            1.3em;
+  padding-bottom:		  5px;
+  padding-left:			  5px;
+}
+#thumbnails label {
+	font-size:              58%;
+}
+
+#all_pictures a, #cart_items a, #selected_pictures a {
+	text-decoration:        none;
+}
+#all_pictures a:hover, 
+#cart_items a:hover, 
+#selected_pictures a:hover {
+	font-size:              0;
+}
+
+#selected_pictures a.remove_picture:hover {
+	font-size:              inherit;
+}
+
+.go_to_checkout {
+  text-align:             right;
+	font-size:              100%;
+	line-height:            1.2em;
+}
+
+body#selection #selection_size, 
+body#selection #selection_size label {
+	font-size:              100%;
+	font-weight:            bold;
+	line-height:            2em;
+}
+
+body#checkout #selection_size label, 
+body#search #search_result_count label {
+  font-weight:            bold;
+  font-size:              110%;
+}
+
+#back_to_gallery {
+	text-align:             center;
+}
+/* /Selection */
+
+
+/* Who */
+.quem_somos h1 + p:first-letter {
+  font-size:              150%;
+  line-height:            2em;
+}
+
+.quem_somos #main_content strong {
+  font-weight:            normal;
+}
+
+.quem_somos cite {
+  text-align:             right;
+}
+/* /Who */
+
+
+/* Forms (contact, checkout, search) */
+label {
+  font-size:              75%;
+	text-align:             right;
+	line-height:            1.2em;
+}
+
+input, textarea {
+  font-size:              93%;
+	line-height:            1.2em;
+}
+
+button {
+  font-size:              75%;
+  line-height:            1.5em;  
+}
+
+#wait_message {
+	text-align:             center;
+}
+
+#submit_error, #submit_success {
+  text-align:             center;
+  line-height:            1.5em;
+}
+
+body#checkout #order_form p {
+	font-size:              90%;
+  text-align:             center;
+	line-height:            2.5em;
+}
+
+#search #query {
+	text-indent:            .2em;
+	line-height:            1.2em;
+}
+/* /Forms (contact, checkout, search) */
+
+
+/* Errors (404, 500, timeout, empty search results) */
+p#not_found, .error_description {
+	font-size:              95%;
+  text-align:             center;
+	line-height:            1.7em;
+}
+
+.error_hints li {
+  list-style-type:        disc;
+}
+  
+#valid_search_suggestions li {
+	list-style:             disc inside;
+	font-size:              90%;
+	line-height:            1.4em;
+}
+/* /Errors (404, 500, timeout, empty search results) */
+
+
+/* Facebox */
+#facebox a {
+	font-size:              80%;
+	text-transform:         uppercase;
+	text-align:             right;
+}
+/* /Facebox */
+
+
+/* Footer */
+#footer p, #footer h6 {
+  text-align:             right;
+  line-height:						1.25em;
+}
+
+#footer h6 {
+  font-size:							70%;
+}
+/* /Footer */
+
+
+
+/* Instructions */
+body.instructions #main_content dt {
+  font-weight:            bold;
+  font-size:              80%;
+}
+
+.instructions #main_content dd, 
+.instructions #main_content ul li {
+  text-align:             justify;
+}
+
+.instructions #main_content ul li {
+  list-style:             circle;
+}
+
+.instructions #main_content ul ul li {
+  list-style:             disc;
+  font-size:              95%;
+}
+
+code {
+  font:                   normal normal normal 80%/1.2em "Lucida Console", "Monaco", monospace; 
+}
+
+p code {
+  font-size:              110%;
+}
+
+.instructions th {
+  font-size:              90%;
+}
+
+.instructions td {
+  font-size:              85%;
+} 
+
+.instructions td span {
+  font-size:              82%;
+}
+
+.instructions td a {
+  font-size:              80%;
+}
+/* /Instructions */
