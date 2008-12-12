@@ -1,6 +1,6 @@
 # Introdução
 
-Este é um template criado para o serviço [Be on the Net][], da [Improve It][]. Foi criado por [Leonardo Miranda][1], web designer, que vive em Petrolina, PE, Brasil. Disponibilizado em 08/12/2008.
+Este é um [template][0] criado para o serviço [Be on the Net][], da [Improve It][]. Foi criado por [Leonardo Miranda][1], web designer, que vive em Petrolina, PE, Brasil. Disponibilizado em 08/12/2008.
 
 # Ficha Técnica
 
@@ -39,5 +39,6 @@ Instruções sobre como criar um novo template para o [Be on the Net][] podem se
 [be]: http://github.com/viniciusteles/beonthenet-estatico/tree/master
 [d]: http://github.com/viniciusteles/beonthenet-estatico/zipball/master
 
+[0]: http://beonthe.net/galerias/templates/galeria/72157610836859458/1
 [1]: http://leomiranda.com.br/
 [2]: http://leomiranda.com.br/contato.html
