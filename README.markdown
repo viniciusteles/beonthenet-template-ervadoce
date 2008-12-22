@@ -40,5 +40,5 @@ Instruções sobre como criar um novo template para o [Be on the Net][] podem se
 [d]: http://github.com/viniciusteles/beonthenet-estatico/zipball/master
 
 [0]: http://beonthe.net/galerias/templates/galeria/72157610836859458/1
-[1]: http://leomiranda.com.br/
-[2]: http://leomiranda.com.br/contato.html
+[1]: http://www.leomiranda.com/
+[2]: http://www.leomiranda.com/site-multimidia-design-web-marketing/Fale-Conosco/
