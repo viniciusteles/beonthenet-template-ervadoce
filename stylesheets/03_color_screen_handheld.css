@@ -20,7 +20,7 @@ html * {
 }
 
 html {
-  background:             #fff url(../images/bg-y.gif) repeat-y top;
+  background:             #fff;
 }
 
 a {
