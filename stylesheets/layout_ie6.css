@@ -28,7 +28,7 @@ ul#thumbnails {
 	margin-bottom:          3px;
 }
 
-#summary p {
+#summary p, #picture_description p {
 	margin-bottom:          .7em;
 }
 

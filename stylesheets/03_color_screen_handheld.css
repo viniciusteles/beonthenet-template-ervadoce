@@ -150,7 +150,7 @@ ul#thumbnails a:hover label {
 
 
 /* Summary */
-#summary, #about_us, #data_sheet, .error_hints {
+#summary, #about_us, #data_sheet, .error_hints, #picture_description {
 	border:					2px dotted #ebebeb;
 }
 /* /Summary */
