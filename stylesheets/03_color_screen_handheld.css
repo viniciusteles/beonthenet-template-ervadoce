@@ -79,7 +79,7 @@ h4 a:focus, h4 a:hover, h4 a:active {
 #header li a:visited {
   color:                  #42929d;
 }
-#header li a:hover {
+#header li a:hover, #header li.current a {
   color:                  #38b2c1;
 }
 #header li a:active {
