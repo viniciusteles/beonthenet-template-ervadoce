@@ -325,6 +325,9 @@ body#selection #selection_size label {
 	background:             transparent url(../images/shopping_cart.gif) no-repeat right center;
 }
 
+.moved_to_cart {
+	opacity:                .3;
+}
 /* /Selection */
 
 
