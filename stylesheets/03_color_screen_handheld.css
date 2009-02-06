@@ -85,17 +85,6 @@ h4 a:focus, h4 a:hover, h4 a:active {
 #header li a:active {
   color:                  #38b2c1;
 }
-
-body.best_galleries #header li.best_galleries, 
-body.full_galleries #header li.full_galleries, 
-body.videos #header li.all_videos, 
-body.quem_somos #header li.quem_somos, 
-body.contact #header li.contact, 
-body.blog #header li.blog {
-
-}
-
-
 /* /Header tabbed menu */
 
 
