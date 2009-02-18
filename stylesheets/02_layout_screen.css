@@ -70,15 +70,6 @@ body.instructions h2 { position: static !important; }
   padding:                20px;
 
 }
-
-body.best_galleries #header li.best_galleries, 
-body.full_galleries #header li.full_galleries, 
-body.all_videos #header li.all_videos, 
-body.quem_somos #header li.quem_somos, 
-body.contact #header li.contact, 
-body.blog #header li.blog {
-  
-}
 /* /Header tabbed menu */
 
 
@@ -194,7 +185,7 @@ body.videos #thumbnails img {
 
 
 /* Summary */
-#summary, #about_us, #data_sheet, .error_hints, #picture_description {
+#summary, #about_us, #data_sheet, body.application #main_content ul, #picture_description {
 	padding:                20px;
   margin-bottom:          20px;
 }
