@@ -144,15 +144,13 @@ ul#thumbnails li {
   position:               relative;
 }
 
-ul#thumbnails h3 {
+ul#thumbnails h3, #thumbnails h4 {
   position:               absolute;
   bottom:                 280px;
   left:                   0;
 }
-
 ul#thumbnails h4 {
-  position:               relative;
-  top:                    .5em;
+  bottom:                 265px;
 }
 
 ul#thumbnails li div {
