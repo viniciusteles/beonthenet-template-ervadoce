@@ -23,8 +23,6 @@ h1 {
   font-size:              180%;
 }
 
-body.instructions h1 { font-size:	24px; }
-
 h2 {
   font-size:              95%;
 }
@@ -265,22 +263,6 @@ body#search #search_result_count label {
 /* /Selection */
 
 
-/* Who */
-.quem_somos h1 + p:first-letter {
-  font-size:              150%;
-  line-height:            2em;
-}
-
-.quem_somos #main_content strong {
-  font-weight:            normal;
-}
-
-.quem_somos cite {
-  text-align:             right;
-}
-/* /Who */
-
-
 /* Forms (contact, checkout, search) */
 label {
   font-size:              75%;
@@ -362,22 +344,30 @@ body.application #main_content li {
 
 
 
-/* Instructions */
-body.instructions #main_content dt {
-  font-weight:            bold;
-  font-size:              80%;
+/* Text */
+.text h1 + p:first-letter {
+  font-size:              150%;
+  line-height:            2em;
 }
 
-.instructions #main_content dd, 
-.instructions #main_content ul li {
+.text #main_content strong {
+  font-weight:            normal;
+}
+
+.text cite {
+  text-align:             right;
+}
+
+.text #main_content dd, 
+.text #main_content ul li {
   text-align:             justify;
 }
 
-.instructions #main_content ul li {
+.text #main_content ul li {
   list-style:             circle;
 }
 
-.instructions #main_content ul ul li {
+.text #main_content ul ul li {
   list-style:             disc;
   font-size:              95%;
 }
@@ -390,19 +380,19 @@ p code {
   font-size:              110%;
 }
 
-.instructions th {
+.text th {
   font-size:              90%;
 }
 
-.instructions td {
+.text td {
   font-size:              85%;
 } 
 
-.instructions td span {
+.text td span {
   font-size:              82%;
 }
 
-.instructions td a {
+.text td a {
   font-size:              80%;
 }
-/* /Instructions */
+/* /Text */
