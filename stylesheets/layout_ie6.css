@@ -13,9 +13,9 @@ body {
 	padding-top:		  20px;
 }
 
-ul#thumbnails {
-  margin-right:           -60px;	
-  width:				  960px;
+ul#thumbnails li {
+  margin-right:           22px;
+  margin-left:            22px;
 }
 
 #all_pictures li, #cart_items li {
