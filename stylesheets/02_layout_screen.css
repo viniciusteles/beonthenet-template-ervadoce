@@ -129,14 +129,14 @@ body.application #main_content h2 {
 
 /* Thumbnails */
 ul#thumbnails {
-  margin-right:           -60px;
-  width:				  960px;	
+  margin-right:           -30px;
+  margin-left:            -30px;
 }
 
 ul#thumbnails li {
 	float:                  left;
 	width:                  260px;
-  margin:                 2.5em 60px 2em 0;  
+  margin:                 40px 30px 32px 30px;  
   position:               relative;
 }
 
