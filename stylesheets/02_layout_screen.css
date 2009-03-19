@@ -111,7 +111,8 @@ a {
 	margin-bottom:          .7em;
 	position:				absolute;
 	top:					170px;
-  left:                   55px;
+/*  left:                   55px;*/
+  left:                   30px;
 }
 
 body#selection h1 {
