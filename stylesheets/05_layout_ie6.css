@@ -18,6 +18,11 @@ ul#thumbnails li {
   margin-left:            22px;
 }
 
+body.videos #thumbnails img {
+  width:expression(this.width > 240 ? "240px" : true);
+}
+
+
 #all_pictures li, #cart_items li {
 	margin:                 1px;
 }
