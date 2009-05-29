@@ -434,11 +434,17 @@ body#timeout #main_content h2 {
 
 /* Footer */
 #footer {
-	background:             url(../images/bottom_bg.png) no-repeat;
+	background:             url(../images/bottom_bg.png) no-repeat top;
 }
 
-#footer p {
-	margin-bottom:          .5em;
+#footer h1, 
+#footer h1 a {
+  color:                  #42929D;
+}
+
+#beonthenet:hover img, 
+#improveit:hover {
+  color:                  #38B2C1;
 }
 /* /Footer */
 

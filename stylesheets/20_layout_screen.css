@@ -115,7 +115,7 @@ a {
   left:                   30px;
 }
 
-body#selection h1 {
+#selection #main_content h1 {
 	float:                  left;
 }
 
@@ -629,11 +629,26 @@ body > #facebox {
 
 /* Footer */
 #footer {
- 	height:					63px;
- 	padding-top:				20px;
+ 	padding-top:            10px;
 }
 
+#footer p {
+	margin-bottom:          .5em;
+}
 
+#beonthenet img {
+  width:                  95px;
+  height:                 22px;
+  margin:                 0 -4px -3px 0;
+}
+
+#footer h5 {
+  margin:                 1.5em 0 .5em 0;
+}
+
+#footer h6 {
+  padding-bottom:         1em;
+}
 /* /Footer */
 
 
