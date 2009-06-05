@@ -22,23 +22,31 @@ h1 {
   font-variant:           small-caps;
   font-size:              180%;
 }
+#gallery h1, #search h1 {
+  font-variant:           normal;
+  font-size:              95%;
+  
+}
+#gallery h1 em, #search h1 em {
+  font-style:             normal;
+  font-variant:           small-caps;
+  font-size:              190%; 
+}
 
 h2 {
   font-size:              95%;
 }
 
 h3, h3 a {
-  font-size:                 	16px;
-  margin:			   			0 0 5px 0;
-  text-decoration:       		none;
-  display:						block;
+  font-size:              16px;
+  margin:			   			    0 0 5px 0;
+  text-decoration:       	none;
 }
 
 h4, h4 a {
-  font-size:                   	12px;
-  text-decoration:       		none;
+  font-size:              12px;
+  text-decoration:       	none;
   margin-bottom:			    10px;
-  display:						block;
   color:                  #9e9b99;
 }
 
@@ -49,35 +57,47 @@ h3 a:focus, h3 a:hover {
 
 
 /* Header tabbed menu */
-#header h1#logo_screen a {
+#header p strong a, #header p strong a img {
+  font-size:              200%;
   text-decoration:        none;
+}
+#header p strong a img {
+  font-size:              100%;
 }
 
 #slogan {
+  font-style:             normal;
   font-size:              90%;
 }
 
-#header h1 img {
-  font-size:              60%;
-  text-transform:         lowercase;
-  word-spacing:           1em;
-}
-
 #header li {
-  font-size:              85%;
+  font-size:              90%;
 	line-height:            1em;
 }
 
 #header li a {
-  	text-decoration:        none;	
-	font-size:				18px;
+  text-decoration:        none; 
 }
 /* /Header tabbed menu */
 
 
 /* Thumbnails */
 ul#thumbnails li {
-  font-size:     	         100%;
+  font-size:     	        100%;
+}
+
+#thumbnails h2, #thumbnails h2 a {
+  text-decoration:        none;
+}
+#thumbnails h2 a {
+  font-size:              105%;
+}
+#thumbnails h2 a:hover {
+  text-decoration:        underline;
+}
+
+#thumbnails h3 a {
+  font-size:              75%;
 }
 
 ul#thumbnails li div a {
@@ -101,7 +121,7 @@ ul#thumbnails a img {
 
 /* Link to Selection */
 #go_to_selection a {
-  line-height:				27px;
+  line-height:            1.25em;
 }
 /* /Link to Selection */
 
@@ -296,9 +316,8 @@ body#pictures_sent #order_form p {
 	line-height:            2.5em;
 }
 
-#search #query {
-	text-indent:            .2em;
-	line-height:            1.2em;
+#global_search #query {
+	line-height:            1.7em;
 }
 /* /Forms (contact, checkout, search) */
 
@@ -337,16 +356,21 @@ body.application #main_content li {
   line-height:						1.25em;
 }
 
-#footer h1, #footer h2 {
+#footer h2, #footer h3 {
   font-size:							70%;
   font-variant:           normal;
 }
 
-#footer h1 a {
+#footer h2 a {
   text-decoration:        none;
 }
 #footer #beonthenet, 
 #footer #improveit {
+  text-decoration:        underline;
+}
+
+#footer h3 a {
+  font-size:              100%;
   text-decoration:        underline;
 }
 

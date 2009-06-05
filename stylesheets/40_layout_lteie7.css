@@ -19,14 +19,14 @@ ul#thumbnails li div span.ie {
 }
 
 .second {
-  bottom:                 40px;
+  position:               relative;
+  bottom:                 35px;
 }
 
 #all_pictures label, #cart_items label, 
 #selected_pictures label {
 	filter:                 alpha(opacity=70);
 }
-
 
 body#selection #selection_size {
   right:                  34.25em;
@@ -38,6 +38,10 @@ body#selection #selection_size {
 
 label {
 	margin-top:             .3em;
+}
+
+#message_confirmation_yes {
+  margin-left:            16.5em;
 }
 
 #submit_button {
