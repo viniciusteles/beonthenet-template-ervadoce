@@ -28,10 +28,6 @@ ul#thumbnails li div span.ie {
 	filter:                 alpha(opacity=70);
 }
 
-body#selection #selection_size {
-  right:                  34.25em;
-}
-
 .moved_to_cart {
 	filter:                 alpha(opacity=30);
 }
