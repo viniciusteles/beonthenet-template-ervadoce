@@ -181,6 +181,8 @@ body.videos #thumbnails img {
 #summary, #picture_description {
 	position:               relative;
 	clear:                  both;
+	top:                    0;
+	left:                   0;
 }
 
 #gallery #summary, #picture #summary {
@@ -254,9 +256,9 @@ body.videos #thumbnails img {
 /* Big picture, big video */
 #big_picture, #big_video {
 	width:                  900px;
-	min-height:             33.25em;
-	height:                 auto !important;
-	height:                 33.25em;
+/*  min-height:             33.25em;*/
+/*  height:                 auto !important;*/
+/*  height:                 33.25em;*/
 	margin-bottom:          2em;
 	position:               relative;
 }
