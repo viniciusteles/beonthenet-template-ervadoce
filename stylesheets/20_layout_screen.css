@@ -256,9 +256,6 @@ body.videos #thumbnails img {
 /* Big picture, big video */
 #big_picture, #big_video {
 	width:                  900px;
-/*  min-height:             33.25em;*/
-/*  height:                 auto !important;*/
-/*  height:                 33.25em;*/
 	margin-bottom:          2em;
 	position:               relative;
 }

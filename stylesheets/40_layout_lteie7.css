@@ -23,12 +23,6 @@ ul#thumbnails li div span.ie {
   bottom:                 35px;
 }
 
-#big_picture, #big_video {
-/*  min-height:             100px;*/
-/*  height:                 auto !important;*/
-/*  height:                 100px;*/
-}
-
 #all_pictures label, #cart_items label, 
 #selected_pictures label {
 	filter:                 alpha(opacity=70);
