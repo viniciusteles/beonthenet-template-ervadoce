@@ -262,20 +262,15 @@ body.videos #thumbnails img {
 }
 
 #big_picture a, #big_video a {
-	width:                  4.75em;
+	width:                  24px;
   position:               absolute;
-	top:                    9em;
+	top:                    120px;
 }
-
 #big_picture #previous, #big_video #previous {
-	margin-top:				90px;
-	left:                   -0.1em;
-	width:					24px;
+	left:                   0;
 }
 #big_picture #next, #big_video #next {
-	margin-top:				90px;
-	right:                  -0.1em;
-	width:					24px;
+	right:                  0;
 }
 
 #big_picture a span, #big_video a span {
