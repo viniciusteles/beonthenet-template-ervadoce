@@ -257,6 +257,9 @@ body.videos #thumbnails img {
 /* Big picture, big video */
 #big_picture, #big_video {
 	width:                  900px;
+	min-height:             140px;
+  height:                 auto !important;
+  height:                 140px;
 	margin-bottom:          2em;
 	position:               relative;
 }
@@ -264,7 +267,7 @@ body.videos #thumbnails img {
 #big_picture a, #big_video a {
 	width:                  24px;
   position:               absolute;
-	top:                    120px;
+	top:                    70px;
 }
 #big_picture #previous, #big_video #previous {
 	left:                   0;
