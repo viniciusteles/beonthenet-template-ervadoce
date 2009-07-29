@@ -107,6 +107,7 @@ h1 {
   left:                   30px;
 }
 #gallery h1, #search h1 {
+  width:                  500px;
   top:                    155px;
 }
 #gallery h1 em, #search h1 em {
