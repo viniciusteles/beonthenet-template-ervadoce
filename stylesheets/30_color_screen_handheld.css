@@ -455,7 +455,7 @@ body#timeout #main_content h2 {
 /* Text */
 .text dt, 
 .text #main_content strong {
-  color:                  #111;
+  color:                  #333;
 }
 
 .text #toc {

@@ -668,7 +668,7 @@ body > #facebox {
 }
 
 .text #main_content h4 {
-  margin-top:             -.8em;
+  margin:                 .75em 0;
 }
 
 .text #main_content cite {

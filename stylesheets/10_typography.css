@@ -44,9 +44,9 @@ h3, h3 a {
 }
 
 h4, h4 a {
-  font-size:              12px;
+  font-style:             italic;
+  font-size:              70%;
   text-decoration:       	none;
-  margin-bottom:			    10px;
   color:                  #9e9b99;
 }
 
@@ -387,7 +387,7 @@ body.application #main_content li {
 }
 
 .text #main_content strong {
-  font-weight:            normal;
+/*  font-weight:            normal;*/
 }
 
 .text cite {
