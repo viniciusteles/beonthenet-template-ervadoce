@@ -706,7 +706,7 @@ body > #facebox {
 
 .text table {
   border-collapse:        collapse;
-  margin:                 auto;
+  margin:                 5px auto;
 }
 
 .text table * {
