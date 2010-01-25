@@ -198,6 +198,10 @@ body.videos #thumbnails img {
   margin-right:           -140px;
   margin-left:            -140px;
 }
+
+#summary p {
+  margin-bottom:          .5em;
+}
 /* /Summary */
 
 
