@@ -222,11 +222,11 @@ ul#thumbnails a img {
 
 
 /* Tags */
-#tags p {
+#tags p, .tags p {
   line-height:            .5em;
 }
 
-#tags a:hover {
+#tags a:hover, .tags a:hover {
   text-decoration:        none;
 }
 /* /Tags */
@@ -381,7 +381,7 @@ body.application #main_content li {
 
 
 
-/* Text */
+/* Text and Blog */
 .text h1 + p:first-letter {
   font-size:              150%;
 }
@@ -394,16 +394,16 @@ body.application #main_content li {
   text-align:             right;
 }
 
-.text #main_content dd, 
-.text #main_content ul li {
+.text #main_content dd, .text #main_content ul li, 
+.blog #main_content dd, .blog #main_content ul li {
   text-align:             justify;
 }
 
-.text #main_content ul li {
+.text #main_content ul li, .blog #main_content ul li {
   list-style:             circle;
 }
 
-.text #main_content ul ul li {
+.text #main_content ul ul li, .blog #main_content ul ul li {
   list-style:             disc;
   font-size:              95%;
 }
@@ -416,19 +416,32 @@ p code {
   font-size:              110%;
 }
 
-.text th {
+th {
   font-size:              90%;
 }
 
-.text td {
+td {
   font-size:              85%;
 } 
 
-.text td span {
+td span {
   font-size:              82%;
 }
 
-.text td a {
+td a {
   font-size:              80%;
 }
-/* /Text */
+/* /Text and Blog */
+
+
+/* Blog */
+.article {
+  font-size:              75%;
+  line-height:            1.7em;
+}
+
+.article * {
+  font-size:              100%;
+  line-height:            1.7em;
+}
+/* /Blog */

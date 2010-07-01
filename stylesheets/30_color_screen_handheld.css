@@ -242,15 +242,15 @@ ul#thumbnails a:hover label {
 
 
 /* Tags */
-#tags a {
+#tags a, .tags a {
   color:                  #908e8d;
 }
 
-#tags a:visited {
+#tags a:visited, .tags a:visited {
   color:                  #908e8d;
 }
 
-#tags a:hover {
+#tags a:hover, .tags a:hover {
   color:                  #fff;
   background-color:       #908e8d;
 }
@@ -452,9 +452,9 @@ body#timeout #main_content h2 {
 /* /Footer */
 
 
-/* Text */
-.text dt, 
-.text #main_content strong {
+/* Text and Blog */
+.text dt, .text #main_content strong, 
+.blog dt, .blog #main_content strong {
   color:                  #333;
 }
 
@@ -468,16 +468,16 @@ code {
   background:             #f5f5f4; 
 }
 
-.text table * {
+table * {
   border-color:           #ebebeb;
 }
 
-.text th {
+th {
   color:                  #908e8d;
   background:             #f5f5f4;
 }
 
-.text td span {
+td span {
   color:                  #666;
 }
 
@@ -485,4 +485,4 @@ pre {
   background:             #f5f5f4;
   border-color:           #ebebeb;
 }
-/* /Text */
+/* /Text and Blog */
