@@ -109,6 +109,27 @@ h4 a:focus, h4 a:hover, h4 a:active {
 /* /Main content top segment */
 
 
+/* Flickr */
+#main_content h5 a, #big_picture cite a, 
+body #footer h6 {
+  color:              #666;
+}
+#main_content h5 a:hover, #big_picture cite a:hover {
+  color:              #42929D;
+}
+body #footer h6 em {
+  color:              #888;
+}
+
+#thumbnails cite a {
+  background:         transparent url(../images/flickr.png) no-repeat left 10px;
+}
+#thumbnails cite a:hover {
+  background-image:   url(../images/flickr_hover.png);
+}
+/* /Flickr */
+
+
 /* Thumbnails */
 #thumbnails h3 a {
   color:                  #908E8D;
