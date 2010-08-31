@@ -128,13 +128,20 @@ body #footer h6 em {
   background-image:   url(../images/flickr_hover.png);
 }
 
-#thumbnails cite.picasa a {
-  background-image:   url(../images/picasa.png);
-}
-#thumbnails cite.picasa a:hover {
-  background-image:   url(../images/picasa_hover.png);
-}
 /* /Flickr */
+
+/* Teste Picasa */
+#thumbnails cite.flickr a {
+  background:         transparent url(../images/flickr.png) no-repeat left 10px;
+}
+#thumbnails cite.flickr a:hover {
+  background-image:   url(../images/flickr_hover.png);
+}
+
+#thumbnails cite.picasa a, #thumbnails cite.picasa a:hover {
+  background:         transparent url(../images/flickr.png) no-repeat left 10px;
+}
+/* /Teste Picasa */
 
 
 /* Thumbnails */
