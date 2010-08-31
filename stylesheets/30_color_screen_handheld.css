@@ -127,6 +127,13 @@ body #footer h6 em {
 #thumbnails cite a:hover {
   background-image:   url(../images/flickr_hover.png);
 }
+
+#thumbnails cite.picasa a {
+  background-image:   url(../images/picasa.png);
+}
+#thumbnails cite.picasa a:hover {
+  background-image:   url(../images/picasa_hover.png);
+}
 /* /Flickr */
 
 
