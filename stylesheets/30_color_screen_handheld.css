@@ -109,7 +109,7 @@ h4 a:focus, h4 a:hover, h4 a:active {
 /* /Main content top segment */
 
 
-/* Flickr */
+/* Flickr e Picasa */
 #main_content h5 a, #big_picture cite a, 
 body #footer h6 {
   color:              #666;
@@ -121,16 +121,6 @@ body #footer h6 em {
   color:              #888;
 }
 
-#thumbnails cite a {
-  background:         transparent url(../images/flickr.png) no-repeat left 10px;
-}
-#thumbnails cite a:hover {
-  background-image:   url(../images/flickr_hover.png);
-}
-
-/* /Flickr */
-
-/* Teste Picasa */
 #thumbnails cite.flickr a {
   background:         transparent url(../images/flickr.png) no-repeat left 10px;
 }
@@ -138,10 +128,13 @@ body #footer h6 em {
   background-image:   url(../images/flickr_hover.png);
 }
 
-#thumbnails cite.picasa a, #thumbnails cite.picasa a:hover {
-  background:         transparent url(../images/flickr.png) no-repeat left 10px;
+#thumbnails cite.picasa a {
+  background:         transparent url(../images/icon_picasa.png) no-repeat 2px 6px;
 }
-/* /Teste Picasa */
+#thumbnails cite.picasa a:hover {
+  background-image:   url(http://beonthe.net/accounts/beonthe.net/images/icon_picasa_hover.png);
+}
+/* /FLickr e Picasa */
 
 
 /* Thumbnails */
