@@ -88,7 +88,7 @@ h4 a:focus, h4 a:hover, h4 a:active {
 
 /* Main content top segment */
 #main_content {
-  	background:             url(../images/main_content_bg.png) no-repeat top left;
+  	background:             url(../images/main_content_bg.png) repeat-y top left;
 }
 
 #go_back_to_thumbnails {
@@ -461,7 +461,7 @@ body#timeout #main_content h2 {
 
 /* Footer */
 #footer {
-	background:             url(../images/bottom_bg.png) no-repeat top;
+	background:             url(../images/footer_bg.png) no-repeat bottom;
 }
 
 #footer h2, 
