@@ -32,6 +32,33 @@ a {
 }
 
 
+/* Social network */
+#social_network {
+  text-align:             right;
+
+  display:                block;
+  padding:                3px 12px 0;
+}
+
+#social_network p {
+  height:                 16px;
+}
+
+#social_network a {
+  margin-left:            3px;
+}
+#social_network a:first-child {
+  float:                  left;
+  margin:                 0;
+
+  opacity:                .4;
+}
+#social_network a:first-child:hover {
+  opacity:                1;
+}
+/* /Social network */
+
+
 /* Header tabbed menu */
 #header {
   min-height:             232px;
@@ -124,7 +151,8 @@ h1 {
   right:              35px;
 }
 #big_picture cite {
-  top:                -19px;
+  top:                -18px;
+  right:              5px;
 }
 
 #thumbnails cite {
@@ -662,7 +690,7 @@ body > #facebox {
 /* Footer */
 #footer {
  	padding-top:            10px;
-  padding-bottom:         17px;
+ 	padding-bottom:         17px;
 }
 
 #footer p {
