@@ -367,6 +367,11 @@ body.videos #thumbnails img {
 	left:                   43.5%;
 }
 
+#big_video object {
+  max-width:            800px;
+  max-height:           450px;
+}
+
 #big_video object p {
   margin:                 1.5em 10em;
 }
