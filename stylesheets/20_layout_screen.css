@@ -405,6 +405,34 @@ body.videos #thumbnails img {
 /* /Tags */
 
 
+/* Testimonials */
+.depoimentos #main_content {
+  padding-bottom:         10px;
+}
+
+.depoimentos blockquote {
+  clear:                  both;
+  margin-top:             45px;
+}
+
+.depoimentos blockquote img {
+  float:                  right;
+
+  border-radius:          3px;
+  margin:                 0 0 30px 30px;
+}
+
+.depoimentos #main_content cite {
+  font-style:             italic;
+  text-align:             left;
+
+  margin:                 1.5em 0 45px;
+
+  color:                  #333;
+}
+/* /Testimonials */
+
+
 /* Selection */
 #all_pictures {
 	float:                  left;
