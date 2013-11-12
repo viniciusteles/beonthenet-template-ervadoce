@@ -223,50 +223,9 @@ ul#thumbnails a:hover label {
 
 /* Data sheet */
 #data_sheet li {
-	color:                  #908e8d;
-	
+	color:                  #908e8d;	
 }
-
-
 /* /Data sheet */
-
-
-/* Big picture, big video */
-#big_picture a#previous, #big_picture a#next, #big_video a#previous, #big_video a#next {	
-		color:					#fff;
-		cursor:					pointer;
-}
-
-#big_picture a#previous span, #big_video a#previous span {
-	background:      url(../images/arrow_previous.gif) no-repeat center right;
-}
-#big_picture a#previous:hover span, #big_video a#previous:hover span {
-	background:      url(../images/arrow_previous.gif) no-repeat center left;
-}
-
-#big_picture #next span, #big_video #next span {
-	background:      url(../images/arrow_next.gif) no-repeat center left;
-
-}
-#big_picture a#next:hover span, #big_video a#next:hover span {
-	background:      url(../images/arrow_next.gif) no-repeat center right;
-}
-
-
-#big_picture img {
-  	color:                  #ebebeb;
-	border-color:           #ebebeb;
-}
-
-#big_picture label {
-  border:				  1px solid #ebebeb;
-  background:             #fff;
-}
-
-#big_video label span {
-  background:             none;
-}
-/* /Big picture, big video */
 
 
 /* Tags */
