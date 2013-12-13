@@ -199,12 +199,12 @@ a {
 h1 {
 	margin-bottom:          .7em;
 	position:				        absolute;
-	top:					          170px;
+	top:					          220px;
   left:                   30px;
 }
 #gallery h1, #search h1 {
   width:                  500px;
-  top:                    155px;
+  top:                    205px;
 }
 #gallery h1 em, #search h1 em {
   display:                block;
